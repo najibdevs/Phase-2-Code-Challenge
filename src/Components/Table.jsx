@@ -46,7 +46,7 @@ const Table = ({ transactions }) => {
   return (
     <div>
       <div className="sort-container">
-        <label htmlFor="sort-select">Sort By:</label>
+        <label htmlFor="sort-select" className='sort'>Sort By:</label>
         <select id="sort-select" value={sortOrder} onChange={handleSortChange}>
           <option value="">None</option>
           <option value="categoryAsc">Category (A-Z)</option>
