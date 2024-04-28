@@ -49,6 +49,7 @@ function Form({ onAddTransaction }) {
                value={formData.date}
                onChange={handleChange}
                className="input-field"
+               required
              />
            </div>
          </div>
@@ -61,6 +62,7 @@ function Form({ onAddTransaction }) {
                onChange={handleChange}
                className="input-field"
                placeholder="Description"
+               required
              />
            </div>
          </div>
@@ -73,6 +75,7 @@ function Form({ onAddTransaction }) {
                onChange={handleChange}
                className="input-field"
                placeholder="Category"
+               required
              />
            </div>
          </div>
@@ -85,6 +88,7 @@ function Form({ onAddTransaction }) {
                onChange={handleChange}
                className="input-field"
                placeholder="Amount"
+               required
              />
            </div>
          </div>
