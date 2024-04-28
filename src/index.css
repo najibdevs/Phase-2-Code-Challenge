@@ -75,11 +75,17 @@
   font-weight: 600;
 }
 
+.input-field:focus {
+  border: 1px solid rgb(27, 156, 196);
+}
+
+
 .input-field {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 3px;
   text-align: center;
+  outline: #5300a1;
   width: 100%;
 }
 
