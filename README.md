@@ -5,7 +5,7 @@
 #### By Najib Iman
 
 ## Live Demo
-[Live Demo Link](https://week3-project-tau.vercel.app/)
+[Live Demo Link](https://phase-2-code-challenge-three.vercel.app/)
 
 ## Description
 - The Transaction Management System is a web app for tracking financial transactions. It offers features like viewing transactions in a table, adding new ones, and filtering by keywords. Users can also sort transactions alphabetically by category or description.
